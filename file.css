@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+body{
+    background: rgb(32,31,49);
+}
+nav {
+    background: rgb(32,31,49);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+nav ul li {
+    float: left;
+}
+nav ul li a {
+    color: #ccc;
+    font-size: 15px;
+    display: flex;
+    text-align: center;
+    text-decoration: none;
+    padding: 40px 30px;
+    font-family: Helvetica, Sans-Serif;
+}
+.container {
+    background-image: url('https://cdn.noitatnemucod.net/thumbnail/1366x768/100/d057bc74b98214c7fd9ca6192aa3ce50.jpg');
+    width: 100%;
+    height: 500px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    justify-content: center;
+}
+.content {
+    padding: 60px 20px;
+}
+input[type="text"]{
+      width: 45%;
+      padding: 7px;
+      border: 2px solid #ccc;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      transition: border-color 0.3s;
+}
+.top-searches {
+    color: white;
+    font-family: Aerial, Sans-Serif;
+}
+.buttonstyle {
+    background-color: #ea7cea;
+    border-radius: 10px;
+    border: 2px solid black;
+    width: 45%;
+    padding: 10px;
+    font-family: Arial, Sans-Serif;
+    font-weight: bold;
+    color: black;
+}
+.searches {
+    display: flex;
+}
+.content {
+    color: #ccc;
+    width: 40%;
+    font-family: Arial, Sans-Serif;
+    font-size: 15px;
+    margin: 50px;
+}
+#footer {
+    color: #ccc;
+    margin: 50px;
+    font-family: Arial, sans-serif;
+}
+.content2 {
+    color: #ccc;
+    width: 40%;
+    margin: 60px;
+    justify-content: center;
+}
+.searchbox {
+    background-color: #4e3646;
+    border-radius: 7px;
+    padding: 7px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+.searchbox-head {
+    font-family: Arial,Sans-Serif;
+    font-size: 13px;
+    color: #ccc;
+}
+.time {
+    text-align: right;
+    font-size: 12px;
+}
+.searchbox-heading {
+    color: white;
+    font-family: Arial,Sans-Serif;
+    font-size: 20px;
+}
+.searchbox-button {
+    background-color: #4e3646;
+    border-radius: 3px;
+    border: 2px solid rgb(32,31,49);
+    justify-content: center;
+    color: white;
+    font-family: Arial,Sans-Serif;
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+}
+#search {
+    margin-top: 10px;
+}
+.input {
+    border: 2px solid black;
+}
